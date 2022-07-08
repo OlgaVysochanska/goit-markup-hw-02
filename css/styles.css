@@ -1,13 +1,17 @@
 :root {
-  --primary-font: "Roboto", "Open Sans", sans-serif;
+  --primary-font: 'Roboto', 'Open Sans', sans-serif;
   --primary-text-color: #212121
   --secondary-text-color: #757575
-  --accent-color: #2196F3
-
+  --accent-color: #2196F3 
 }
 
 .list {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -15,3 +19,44 @@ body {
   color: var(--primary-text-color);
 }
 
+/* ================== HEADER ==================== */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo .logo-header {
+  color: #000000;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #2196F3
+}
+
+.contacts-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  
+    color: #757575;
+}
+
+.contacts-header:hover,
+.contacts-header:focus {
+  color: #2196F3;
+}
