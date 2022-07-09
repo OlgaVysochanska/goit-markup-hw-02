@@ -62,7 +62,11 @@ body {
   color: var(--accent-color);
 }
 
-/* ================HERO============== */
+/* ================HERO INDEX============== */
+
+.hero {
+  background-color: #2F303A;;
+}
 
 .main-title {
    font-weight: 900;
@@ -84,10 +88,13 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
   
     color: var(--primary-text-color-dark-theme);
     background-color: var(--accent-color);
 }
+
+/* ===============MAIN================== */
 
 .principles-title {
   font-weight: 700;
@@ -98,7 +105,6 @@ body {
 }
 
 .principles-item {
-  font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -114,7 +120,11 @@ body {
     letter-spacing: 0.03em;
 }
 
-.card-description-title {
+.team {
+  background-color: #F5F4FA;;
+}
+
+.team-description-title {
   font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -122,10 +132,69 @@ body {
     letter-spacing: 0.03em;
 }
 
-.card-description-item {
-  font-weight: 400;
+.team-description-item {
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* ===============MAIN PORTFOLIO============== */
+
+.filter {
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--primary-text-color-dark-theme);
+  background-color: var(--accent-color);
+}
+
+.portfolio-card-title {
+  font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-card-description {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color)
+}
+
+/* ============FOOTER============== */
+
+.footer {
+  background-color: #2F303A;
+}
+
+.logo-footer {
+  color: var(--primary-text-color-dark-theme);
+}
+
+.address {
+  font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-dark-theme);
+}
+
+.address .contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--accent-color);
 }
