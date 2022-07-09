@@ -27,7 +27,7 @@ body {
   font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
@@ -41,7 +41,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color-light-theme);
 }
 
 .menu-link:hover,
@@ -96,8 +95,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-  
-    color: var(--primary-text-color-light-theme)
 }
 
 .principles-item {
@@ -107,4 +104,28 @@ body {
     letter-spacing: 0.03em;
   
     color: var(--secondary-text-color)
+}
+
+.secondary-title {
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.card-description-title {
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.card-description-item {
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
