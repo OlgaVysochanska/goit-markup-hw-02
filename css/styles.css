@@ -36,6 +36,10 @@ body {
   color: #000000;
 }
 
+.active-page {
+  color: var(--accent-color);
+}
+
 .menu-link {
     font-weight: 500;
     font-size: 14px;
@@ -81,12 +85,10 @@ body {
 }
 
 .custom-button {
+  font-family: inherit;
   font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
   
@@ -126,14 +128,12 @@ body {
 
 .team-description-title {
   font-weight: 500;
-    font-size: 16px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .team-description-item {
-    font-size: 16px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
@@ -165,7 +165,6 @@ body {
 }
 
 .portfolio-card-description {
-    font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color)
@@ -183,7 +182,6 @@ body {
 
 .address {
   font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
